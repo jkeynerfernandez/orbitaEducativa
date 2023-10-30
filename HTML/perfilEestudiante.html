@@ -10,13 +10,14 @@
 <body>
     <header>
         <div id="titulo">
-            <img  src="../Archivos/Images/imagotipo.png" alt="" width="100" height="100" >
-            <h1>Órbita Educativa</h1>
+            <center><h1>Órbita Educativa</h1></center>
+            <img  src="../Archivos/Images/imagotipo.png" alt="" width="70" height="70" >
+            
             
         </div>
 
         <nav>
-            
+
         </nav>
         
         
@@ -65,14 +66,38 @@
             
         </div>
         <aside id="derecha">
-            <!-- Foto de perfil -->
-            <img src="foto_de_perfil.jpg" alt="Mi Foto de Perfil">
+            <div id="fotodeperfil">
+                <center><img src="../Archivos/Images/user.png" alt="Mi Foto de Perfil" height="40%" width="40%"></center>
+                <label for="fotoperfil">cambiar foto de perfil:</label>
+                <input type="file" id="fotoperfil" name="fotoperfil">
+            </div>
+            
             <!-- Información de perfil -->
-            <h2>Mi Perfil</h2>
+            <section id="perfil">
+                <h2>Mi Perfil</h2>
 
-            <p>Nombre: Tu Nombre</p>
-            <p>Email: tu@email.com</p>
-            <p>Ubicación: Tu Ubicación</p>
+                <table id="tabladeperfil">
+                    <tr>
+                        <td>Nombre:</td>
+                        <td>Tu Nombre</td>
+                    </tr>
+                    <tr>
+                        <td>E-mail:</td>
+                        <td>example@email.com</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Ubicación:</td>
+                        <td>Ciudad</td>
+                    </tr>
+
+
+
+                </table>
+
+                
+            </section>
+           
         </aside>
     </div>
     
