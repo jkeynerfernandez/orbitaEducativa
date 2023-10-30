@@ -1,6 +1,13 @@
-#imagotipo{
-    height: 40;
-    width: 40;
+header{
+    
+    height: 100px;
+    background-color: #8327F2;
+    
+}
+#titulo{
+    display: flex;
+    align-items: center;
+    
 }
 
 /* Estilo para el contenedor principal */
@@ -16,34 +23,51 @@
     
 }
 
+
+
 /* Estilo para la columna izquierda */
 #izquierda {
-    order: 3;
+    order: 1;
     background-color: transparent;
-    padding: 20px;
+    padding: 50px;
     max-width: 25%;
+    min-height: 100%;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 /* Estilo para la columna del centro */
 #centro {
     order: 2;
-    background-color: #191970; /* Azul noche */
+    background-color: #8327F2;
     color: white; /* Texto en blanco */
-    padding: 20px;
+    padding: 100px;
     max-width: 50%;
     overflow: auto;
 
 }
 
+#contenidodeotrosusuarios{
+    width: auto;
+    height: auto;
+    overflow-y: auto;
+   
+}
+
 /* Estilo para la columna derecha */
 #derecha {
-    order: 1;
+    order: 3;
     background-color: transparent;
-    padding: 20px;
+    padding: 50px;
     max-width: 25%;
+    min-height: 100%;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 /* Estilo para los encabezados */
+h1{
+    font-style: italic;
+    
+}
 h2 {
     font-size: 20px;
 }

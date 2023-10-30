@@ -9,54 +9,71 @@
 </head>
 <body>
     <header>
-        <div id="imagotipo">
-            <h1>órbita Educativa</h1>
-            <img src="../Archivos/Images/imagotipo.png" alt="algo falló con la imagen" height="40" width="20">
+        <div id="titulo">
+            <img  src="../Archivos/Images/imagotipo.png" alt="" width="100" height="100" >
+            <h1>Órbita Educativa</h1>
+            
         </div>
+
+        <nav>
+            
+        </nav>
+        
+        
     </header>
    
     <div id="contenedor"><!-- este div es para el contenido main-->
-        <div id="izquierda">
-            <!-- Espacios para información adicional -->
-            <h2>Información Adicional</h2>
-            <p>Detalles personales</p>
-            <p>Intereses</p>
-            <p>Contacto</p>
-            <!-- Listado de cursos -->
-            <h2>Mis Cursos</h2>
-            <ul>
-                <li>Curso 1</li>
-                <li>Curso 2</li>
-                <li>Curso 3</li>
-            </ul>
-        </div>
+        
+            <aside id="izquierda"><h2>Información Adicional</h2>
+                <p>Detalles personales</p>
+                <p>Intereses</p>
+                <p>Contacto</p>
+                <!-- Listado de cursos -->
+                <h2>Mis Cursos</h2>
+                <ul>
+                    <li>Curso 1</li>
+                    <li>Curso 2</li>
+                    <li>Curso 3</li>
+                </ul>
+            </aside><!-- Espacios para información adicional -->
+            
+        
         <div id="centro">
             <!-- Sección para subir contenido -->
-            <h2>Subir Contenido</h2>
-            <form action="" method="post" enctype="multipart/form-data">
-                <!-- Campos para comentarios, fotos y videos -->
-                <label for="comentario">Comentario:</label>
-                <textarea id="comentario" name="comentario" rows="5" cols="50"></textarea>
-                <label for="foto">Subir Foto:</label>
-                <input type="file" id="foto" name="foto">
-                <label for="video">Subir Video:</label>
-                <input type="file" id="video" name="video">
-                <input type="submit" value="Subir">
-            </form>
-            <!-- Sección para ver contenido aleatorio -->
+            <section><h2>Subir Contenido</h2>
+                <form action="" method="post" enctype="multipart/form-data">
+                    <!-- Campos para comentarios, fotos y videos -->
+                    <label for="comentario">Comentario:</label>
+                    <textarea id="comentario" name="comentario" rows="5" cols="50"></textarea>
+                    <label for="foto">Subir Foto:</label>
+                    <input type="file" id="foto" name="foto">
+                    <label for="video">Subir Video:</label>
+                    <input type="file" id="video" name="video">
+                    <input type="submit" value="Subir">
+                </form>
+                <hr>
+            </section>
+            <section id="contenidodeotrosusuarios">
+                <!-- Sección para ver contenido aleatorio -->
             <h2>Contenido Aleatorio de otros perfiles </h2>
             <!--Aquí se mostraría contenido aleatorio de otros usuarios.-->
             <p>fotos,videos, comentarios de otros perfiles</p>
+            
+
+            </section>
+
+            
         </div>
-        <div id="derecha">
+        <aside id="derecha">
             <!-- Foto de perfil -->
             <img src="foto_de_perfil.jpg" alt="Mi Foto de Perfil">
             <!-- Información de perfil -->
             <h2>Mi Perfil</h2>
+
             <p>Nombre: Tu Nombre</p>
             <p>Email: tu@email.com</p>
             <p>Ubicación: Tu Ubicación</p>
-        </div>
+        </aside>
     </div>
     
 </body>
