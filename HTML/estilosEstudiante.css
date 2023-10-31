@@ -1,8 +1,13 @@
+head{
+    margin: 0;
+}
 header{
     
-    height: 100px;
-    background-color: #8327F2;
-    
+    background-image: linear-gradient(to top left,
+    rgb(30, 5, 30),
+    #641474,
+    rgb(30, 5, 30));
+
 }
 #titulo{
     display: flex;
@@ -32,10 +37,11 @@ footer{
     height: 100%;
     background-image: url(../Archivos/Images/fondo.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: normal;
     background-repeat: no-repeat;
     
 }
+
 
 
 
@@ -44,8 +50,11 @@ footer{
     order: 1;
     background-color: transparent;
     
+    min-width: 25%;
     max-width: 25%;
     min-height: 100%;
+    max-height: 100%;
+    
     background: rgba(255, 255, 255, 0.1);
 }
 
@@ -55,7 +64,8 @@ footer{
     background-color: #91e9b9;
     color: #0f0707; /* Texto en blanco */
     padding: 10px;
-    max-width: 50%;
+    min-width: 50%;
+   
     min-height: 100%;
     overflow: auto;
     
@@ -73,6 +83,7 @@ footer{
     
 }
 
+
 #contenidodeotrosusuarios{
     height: 300px;
 	width: 100%;
@@ -88,18 +99,22 @@ footer{
 #derecha {
     order: 3;
     background-color: transparent;
-    padding: 50px;
-    max-width: 25%;
+    
     min-height: 100%;
+    max-height: 100%;
+    
+    min-width: 25%;
     background: rgba(255, 255, 255, 0.1);
 }
 
 #tablaldeperfil{
+    
 
 }
 
 /* Estilo para los encabezados */
 h1{
+    color: #91e9b9;
     font-style: italic;
     
     

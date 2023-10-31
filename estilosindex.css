@@ -1,0 +1,61 @@
+body{
+    background-image: url(Archivos/Images/fondo.jpg);
+}
+header{
+    
+    background-image: linear-gradient(to top left,
+    rgb(30, 5, 30),
+    #641474,
+    rgb(30, 5, 30));
+
+}
+#titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+nav{
+    background-color: #91e9b9;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+h1{
+    color: #91e9b9;
+    font-style: italic;
+    
+    
+}
+
+#contenedor {
+    
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; 
+   
+    
+}
+
+#bienvenida, #QuienesSomos, #PQR{
+
+    
+    background-color: transparent;
+    background: rgba(255, 255, 255, 0.25);
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left:40px ;
+    margin-right:40px ;
+    min-width: 90%;
+    max-width: 90%;
+    min-height: 100%;
+    max-height: 10%;
+
+}
+
