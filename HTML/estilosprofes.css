@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0; /* Quitamos el margen predeterminado del body */
+    
+   
+
+    background-size: cover;
+    background-position: normal;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ajustamos la altura del cuerpo al 100% del viewport */
+}
+
+/* Estilo para el encabezado */
+header {
+    background-image: url(images/galax.jpg);
+    text-align: center;
+    color:  #91e9b9;
+}
+
+/* Estilo para el título */
+#titulo {
+    
+   
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+/* Estilo para la columna del centro */
+#centro {
+    background-color: #91e9b9;
+    color: #0f0707;
+    width: 70%;
+    padding: 20px;
+}
+
+
+/* Estilos para los encabezados */
+h1 {
+    color: #91e9b9;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+/* Estilo para la columna derecha */
+#derecha {
+    background-image:url(images/galax.jpg);
+    width: 30%;
+    color: #91e9b9;
+    
+}
+
+/* Estilos para mover la sección de perfil al lado derecho */
+#perfil {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color:  #91e9b9;
+    background-color: transparent(0.25);
+   
+margin: 10px;
+}
+#astro{
+    border-image:auto;
+    padding: 10%;
+}
+#perfil{
+    background: rgba(255, 255, 255, 0.25);
+}
