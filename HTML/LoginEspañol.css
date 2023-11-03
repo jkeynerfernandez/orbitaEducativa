@@ -67,3 +67,26 @@ input[type="submit"]:hover {
 @media(min-width:992px){
 
 }
+input[type="submit"] {
+    background: #800080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: neon 1.5s ease-in-out infinite;
+}
+
+input[type="submit"]:hover {
+    background: #660066;
+    animation: none; /* Detiene la animación al pasar el mouse sobre el botón */
+}
+
+@keyframes neon {
+    0% {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #800080, 0 0 80px #800080, 0 0 90px #080, 0 0 100px #800080, 0 0 150px #800080;
+    }
+    100% {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #800080, 0 0 70px #800080, 0 0 80px #800080, 0 0 90px #800080, 0 0 100px #800080;
+    }
+} a
