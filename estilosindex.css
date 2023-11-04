@@ -7,6 +7,8 @@ header{
     rgb(30, 5, 30),
     #641474,
     rgb(30, 5, 30));
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    padding: 10px;
 
 }
 #titulo{
@@ -23,12 +25,13 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
     
 }
 
 h1{
     color: #91e9b9;
-    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
     
     
 }
@@ -38,6 +41,8 @@ h1{
     justify-content: space-between;
     align-items: center;
     height: 100%; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    
    
     
 }
@@ -45,8 +50,8 @@ h1{
 #bienvenida, #QuienesSomos, #PQR{
 
     
-    background-color: transparent;
-    background: rgba(255, 255, 255, 0.25);
+   
+    background: rgba(255, 255, 255, 0.35);
     border-radius: 5px;
     padding: 20px;
     margin-top: 100px;

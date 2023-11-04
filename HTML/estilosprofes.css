@@ -1,3 +1,8 @@
+#fotodeperfil{
+    min-height: 25%;
+    background: rgba(255, 255, 255, 0.25);
+}
+
 body {
     display: flex;
     flex-direction: row;
@@ -12,21 +17,28 @@ body {
     height: 100vh; /* Ajustamos la altura del cuerpo al 100% del viewport */
 }
 
-/* Estilo para el encabezado */
-header {
-    background-image: url(images/galax.jpg);
-    text-align: center;
-    color:  #91e9b9;
-}
 
-/* Estilo para el título */
-#titulo {
-    
-   
-display: flex;
+header{
+    max-width: 25%;
+    min-width: 25;
+    padding: 10px;
+    background-image: url(../Archivos/Images/fondo.jpg);
+
+}
+#titulo{
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    text-align: center;
+    
+    
+}
+nav{
+    background-color: #91e9b9;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 
@@ -51,7 +63,7 @@ h2 {
 
 /* Estilo para la columna derecha */
 #derecha {
-    background-image:url(images/galax.jpg);
+    background-image:url(../Archivos/Images/fondo.jpg);
     width: 30%;
     color: #91e9b9;
     
@@ -72,4 +84,17 @@ margin: 10px;
 }
 #perfil{
     background: rgba(255, 255, 255, 0.25);
+}
+
+input[type="submit" ] {
+    background: #800080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background:#660066;
 }
