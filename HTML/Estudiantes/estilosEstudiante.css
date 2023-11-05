@@ -40,7 +40,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    background-image: url(../Archivos/Images/fondo.jpg);
+    background-image: url(../../Archivos/Images/fondo.jpg);
     background-size: cover;
     background-position: normal;
     background-repeat: no-repeat;
@@ -112,10 +112,7 @@ footer{
     background: rgba(255, 255, 255, 0.25);
 }
 
-#tablaldeperfil{
-    
 
-}
 
 /* Estilo para los encabezados */
 h1{
@@ -161,4 +158,5 @@ input[type="submit" ] {
 input[type="submit"]:hover {
     background:#660066;
 }
+
 
