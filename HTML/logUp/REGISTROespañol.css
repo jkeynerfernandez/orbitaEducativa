@@ -38,15 +38,6 @@ form {
     flex-direction: column;
 }
 
-/* form{
-    max-width: 100%;
-    margin: auto;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #993399;
-    border-radius: 5px;
-} */
-
 label {
     display: block;
     margin-bottom: 5px;
