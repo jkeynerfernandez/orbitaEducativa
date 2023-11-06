@@ -1,0 +1,114 @@
+#fotodeperfil{
+    min-height: 25%;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0; /* Quitamos el margen predeterminado del body */
+    
+   
+
+    background-size: cover;
+    background-position: normal;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ajustamos la altura del cuerpo al 100% del viewport */
+}
+
+
+header{
+    max-width: 25%;
+    min-width: 25;
+    padding: 10px;
+    background-image: url(../../Archivos/Images/fondo.jpg);
+
+}
+#titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+nav{
+    background-color: #91e9b9;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+/* Estilo para la columna del centro */
+#centro {
+    background-color: #91e9b9;
+    color: #0f0707;
+    width: 70%;
+    padding: 20px;
+}
+
+
+/* Estilos para los encabezados */
+h1 {
+    color: #91e9b9;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+
+/* Estilo para la columna derecha */
+#derecha {
+    background-image:url(../../Archivos/Images/fondo.jpg);
+    width: 30%;
+    color: #91e9b9;
+    
+}
+
+
+/* Estilos para mover la sección de perfil al lado derecho */
+#perfil {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color:  #91e9b9;
+    background-color: transparent(0.25);
+   
+margin: 10px;
+}
+#astro{
+    border-image:auto;
+    padding: 10%;
+}
+#perfil{
+    background: rgba(255, 255, 255, 0.25);
+}
+
+
+input[type="submit"] {
+    background: #800080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+input[type="submit"]:hover {
+    background: #660066;
+    animation: neon 2.5s ease-in-out infinite; 
+}
+
+@keyframes neon {
+    100% {
+        box-shadow: 0 0 6px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #800080, 0 0 50px #800080, 0 0 60px #080, 0 0 90px #800080, 0 0 110px #800080;
+    }
+    0% {
+        box-shadow: 0 0 5px #fff, 0 0 8px #fff, 0 0 15px #fff, 0 0 25px #800080, 0 0 40px #800080, 0 0 50px #800080, 0 0 70px #800080, 0 0 100px #800080;
+    }
+}
