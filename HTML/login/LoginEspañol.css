@@ -48,18 +48,6 @@ input {
     border-radius: 5px;
 }
 
-input[type="submit"] {
-    background: #800080;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background: #660066;
-}
 
 @media(min-width:768px){
 
@@ -75,19 +63,19 @@ input[type="submit"] {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    animation: neon 1.5s ease-in-out infinite;
+   
 }
 
 input[type="submit"]:hover {
     background: #660066;
-    animation: none; /* Detiene la animación al pasar el mouse sobre el botón */
+    animation: neon 2.5s ease-in-out infinite; 
 }
 
 @keyframes neon {
-    0% {
-        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #800080, 0 0 80px #800080, 0 0 90px #080, 0 0 100px #800080, 0 0 150px #800080;
-    }
     100% {
-        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #800080, 0 0 70px #800080, 0 0 80px #800080, 0 0 90px #800080, 0 0 100px #800080;
+        box-shadow: 0 0 6px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #800080, 0 0 50px #800080, 0 0 60px #080, 0 0 90px #800080, 0 0 110px #800080;
+    }
+    0% {
+        box-shadow: 0 0 5px #fff, 0 0 8px #fff, 0 0 15px #fff, 0 0 25px #800080, 0 0 40px #800080, 0 0 50px #800080, 0 0 70px #800080, 0 0 100px #800080;
     }
 }
