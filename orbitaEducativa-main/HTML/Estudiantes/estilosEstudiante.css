@@ -1,0 +1,176 @@
+head{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin: 0;
+}
+header{
+    padding: 10px;
+    background-image: linear-gradient(to top left,
+    rgb(30, 5, 30),
+    #641474,
+    rgb(30, 5, 30));
+
+}
+#nombreUsuarioLogueado{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+#titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+nav{
+    background-color: #91e9b9;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+footer{
+    height: 50%;
+
+    background-color: #8327F2;
+
+}
+
+
+/* Estilo para el contenedor principal */
+#contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    background-image: url(../../Archivos/Images/fondo.jpg);
+    background-size: cover;
+    background-position: normal;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+/* Estilo para la columna izquierda */
+#izquierda {
+    order: 1;
+    background-color: transparent;
+    
+    min-width: 25%;
+    max-width: 25%;
+    min-height: 100%;
+    max-height: 100%;
+    
+    background: rgba(255, 255, 255, 0.25);
+}
+
+/* Estilo para la columna del centro */
+#centro {
+    order: 2;
+    background-color: #91e9b9;
+    color: #0f0707; /* Texto en blanco */
+    padding: 10px;
+    min-width: 50%;
+   
+    min-height: 100%;
+    overflow: auto;
+    
+
+}
+#subircontenido{
+    height: 200px;
+	width: 100%;
+	border: 1px solid #ddd;
+	background: rgba(255, 255, 255, 0.1);
+    overflow: auto;
+    overflow-y: scroll;
+
+
+    
+}
+
+
+#contenidodeotrosusuarios{
+    height: 300px;
+	width: 100%;
+	border: 1px solid #ddd;
+	background: rgba(255, 255, 255, 0.1);
+    overflow: auto;
+    overflow-y: scroll;
+
+   
+}
+
+/* Estilo para la columna derecha */
+#derecha {
+    order: 3;
+    background-color: transparent;
+    
+    min-height: 100%;
+    max-height: 100%;
+    
+    min-width: 25%;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+
+
+/* Estilo para los encabezados */
+h1{
+    color: #91e9b9;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    
+    
+}
+h2 {
+    font-size: 20px;
+}
+
+/* Estilo para los elementos del listado de cursos */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Estilo para el formulario */
+form {
+    margin-bottom: 10x;
+}
+
+/* Estilo para etiquetas y campos de formulario */
+label, textarea, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background: #800080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+input[type="submit"]:hover {
+    background: #660066;
+    animation: neon 2.5s ease-in-out infinite; 
+}
+
+@keyframes neon {
+    100% {
+        box-shadow: 0 0 6px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #800080, 0 0 50px #800080, 0 0 60px #080, 0 0 90px #800080, 0 0 110px #800080;
+    }
+    0% {
+        box-shadow: 0 0 5px #fff, 0 0 8px #fff, 0 0 15px #fff, 0 0 25px #800080, 0 0 40px #800080, 0 0 50px #800080, 0 0 70px #800080, 0 0 100px #800080;
+    }
+}
+

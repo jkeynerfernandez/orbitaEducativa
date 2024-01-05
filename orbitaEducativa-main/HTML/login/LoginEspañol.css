@@ -1,0 +1,149 @@
+
+header{
+    background-image: linear-gradient(to top left,
+    rgb(30, 5, 30),
+    #641474,
+    rgb(30, 5, 30));
+    border-radius: 5px;
+}
+
+#titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    color: #91e9b9;
+}
+
+h2{
+    text-align: center;
+    color: #000000;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #91e9b9;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #993399;
+    border-radius: 5px;
+}
+
+
+input[type="submit"] {
+    background: #800080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+input[type="submit"]:hover {
+    background: #660066;
+    animation: neon 2.5s ease-in-out infinite; 
+}
+
+@keyframes neon {
+    100% {
+        box-shadow: 0 0 6px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #800080, 0 0 50px #800080, 0 0 60px #080, 0 0 90px #800080, 0 0 110px #800080;
+    }
+    0% {
+        box-shadow: 0 0 5px #fff, 0 0 8px #fff, 0 0 15px #fff, 0 0 25px #800080, 0 0 40px #800080, 0 0 50px #800080, 0 0 70px #800080, 0 0 100px #800080;
+    }
+}
+
+/*___________________________________________________________________________*/
+nav{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+
+.col-md-3
+{
+    padding: 10px;
+   
+}
+
+#idioma, #theme  {
+    width: 35%;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.description{
+    width: 231px;
+    height: 40px;
+    margin-top: 10px;
+    
+}
+.producto{
+    text-align: left;
+    
+    width: 231px;
+   
+   
+    font-size: small;
+}
+/*claro*/
+.theme-light{
+    background-color: rgb(223, 206, 184);
+}
+
+.theme-light button{
+    background-color: red;
+    color:black;
+}
+.theme-light nav{
+    background-color:rgb(87, 19, 19);
+}
+
+
+/* oscuro*/
+.theme-dark{
+    background-color: rgb(0, 0, 0);
+}
+.theme-dark .card{
+    background-color: rgb(255, 255, 0);
+    color: black;
+
+}
+.theme-dark button{
+    background-color: green;
+}
+.theme-dark nav{
+    background-color: rgb(255, 255, 0);
+}
+
+
+/* free*/
+.theme-free{
+    background-color: rgb(12, 205, 212);
+}
+
+.theme-free .card{
+    background-color: rgb(6, 146, 151);
+    color: azure;
+}
+.theme-free header{
+    background-color: rgb(4, 94, 97);
+}
